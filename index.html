@@ -13,33 +13,36 @@
 </head>
 
 <body class="container-fluid">
+
     <!-- comienzo navbar -->
-    <nav class="navbar navbar-expand-lg">
+    <nav class="navbar navbar-expand-xl">
         <div class="container-fluid">
-            <a class="navbar-brand" href="#"><img class="rounded-circle img-fluid logoBoreal" src="img/logo_boreal.png"
+            <a class="navbar-brand" href="index.html"><img class="rounded-circle img-fluid logoBoreal" src="img/logo_boreal.png"
                     alt="Boreal Acolchados"></a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
-                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <button class="navbar-toggler ms-auto" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll"
+                aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
-            <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav">
+            <div class="collapse navbar-collapse" id="navbarScroll">
+                <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 200px;">
                     <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="#">¿QUIENES SOMOS?</a>
+                        <a class="nav-link active" aria-current="page" href="index.html">INICIO</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">CATÁLOGO</a>
+                        <a class="nav-link" href="html/quienes-somos.html">NOSOTROS</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">CONTACTO</a>
+                        <a class="nav-link" href="html/catalogo.html">CATÁLOGO</a>
                     </li>
-
+                    <li class="nav-item">
+                        <a class="nav-link" href="html/contacto.html">CONTACTO</a>
+                    </li>
                 </ul>
+                <div class="carrito">
+                    <a href="#"><img src="img/carrito.png" alt=""></a>
+                    <p>Carrito (0)</p>
+                </div>
             </div>
-        </div>
-        <div class="carrito">
-            <a href="#"><img src="img/carrito.png" alt=""></a>
-            <p>Carrito (0)</p>
         </div>
     </nav>
     <!-- fin navbar -->
@@ -47,23 +50,26 @@
     <!-- Comienzo main -->
     <main>
         <div class="contenedor-main">
-        <div>
-            <h1 class="text-center col-xl-12 col-md-12 col-sm-12">Categorías</h1>
-        </div>
-
-        <div class="row">
-            <div class="col-xl-4 col-md-6 col-sm-12 text-center">
-                <img class="img-fluid" src="img/categoria_acolchados.png" alt="Acolchados de Diseño único">
-            </div>
-            <div class="col-xl-4 col-md-6 col-sm-12 text-center">
-                <img class="img-fluid" src="img/categoria_almohadones.png" alt="Almohadones de Diseño único">
-            </div>
-            <div class="col-xl-4 col-md-6 col-sm-12 text-center">
-                <img class="img-fluid" src="img/categoria_sabanas.png" alt="Sábanas de Diseño único">
+            <div>
+                <h1 class="text-center col-xl-12 col-md-12 col-sm-12">Categorías</h1>
             </div>
 
+            <div class="row">
+                <div class="col-xl-4 col-md-6 col-sm-12 text-center">
+                    <a href="html/catalogo.html"><img class="img-fluid" src="img/categoria_acolchados.png"
+                            alt="Acolchados de Diseño único"></a>
+                </div>
+                <div class="col-xl-4 col-md-6 col-sm-12 text-center">
+                    <a href="html/catalogo.html"><img class="img-fluid" src="img/categoria_almohadones.png"
+                            alt="Almohadones de Diseño único"></a>
+                </div>
+                <div class="col-xl-4 col-md-6 col-sm-12 text-center">
+                    <a href="html/catalogo.html"><img class="img-fluid" src="img/categoria_sabanas.png"
+                            alt="Sábanas de Diseño único"></a>
+                </div>
+
+            </div>
         </div>
-    </div>
 
     </main>
     <!-- fin main -->
@@ -88,9 +94,11 @@
                 </div>
                 <div class="col-xl-4 col-md-12 col-sm-12">
                     <p>Seguinos en redes</p>
-                    <a href="#"><i class="bi bi-facebook"></i></a>
-                    <a href="#"><i class="bi bi-instagram"></i></a>
-                    <a href="#"><i class="bi bi-twitter"></i></a>
+                    <a href="https://www.facebook.com/boreal.beddesign" target="_blank"><i
+                            class="bi bi-facebook"></i></a>
+                    <a href="https://www.instagram.com/boreal.acolchados/" target="_blank"><i
+                            class="bi bi-instagram"></i></a>
+                    <a href="https://twitter.com" target="_blank"><i class="bi bi-twitter"></i></a>
 
                 </div>
             </div>
