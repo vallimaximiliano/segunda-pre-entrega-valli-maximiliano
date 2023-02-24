@@ -5,10 +5,12 @@ body {
     color: #695E7C;
 }
 
-
 li {
     list-style-type: none;
+}
 
+h4 {
+    font-size: 16px;
 }
 
 .logoBoreal {
@@ -38,16 +40,22 @@ main {
     justify-content: center;
     padding-bottom: 40px;
     padding-top: 40px;
+    
 }
 
 main img {
-    width: 420px;
+    width: 95%;
     margin: 10px;
     border-radius: 15px;
+    
+}
+
+.contenedor-main {
+    width: 90%;
 }
 
 .footer {
-    height: 120px;
+    height: 110px;
     margin: 10px;
 }
 
@@ -58,4 +66,22 @@ footer ul {
 .medios img {
     max-width: 50px;
     padding: 5px;
+}
+
+i {
+    color: #432B77;
+    font-size: 40px;
+    margin: 10px;
+}
+i:hover {
+    color: cornflowerblue;
+}
+
+.fin {
+    background-color: #432B77;
+    padding: 15px;
+    font-size: 14px;
+    font-weight: 200;
+    text-align: center;
+    color: white;
 }
