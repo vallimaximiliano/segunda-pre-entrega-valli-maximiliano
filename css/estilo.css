@@ -19,9 +19,12 @@ h4 {
     font-size: 1.2rem;
     font-weight: 700;
     color: #695E7C;
-
-
 }
+
+.navbar-toggler:focus {
+    box-shadow: none
+
+    }
 
 .nav-link:hover {
     color: cornflowerblue;
@@ -67,6 +70,35 @@ main img {
 
 .contenedor-main {
     width: 90%;
+}
+
+/* main catálogo */
+
+section {
+    background-color: lightgray;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-bottom: 40px;
+    padding-top: 40px;
+}
+.titProd {
+    font-weight: 400;
+    margin: 10px 10px 1px 10px;
+
+}
+
+.subtitProd {
+    font-weight: 200;
+
+
+}
+
+.precioProd {
+    font-weight: 600;
+    font-size: 20px;
+    
 }
 
 .footer {
