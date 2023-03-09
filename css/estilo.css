@@ -62,6 +62,8 @@ main {
 }
 
 
+
+
 main img {
     width: 95%;
     margin: 10px;
@@ -102,47 +104,19 @@ section {
     
 }
 
-/* ********** TARJETA DE PRODUCTO **************** */
-.producto {
-    height: 320px;
-    width: 180px;
-    margin: 20px;
-    background-color: #fff;
-    border-radius: 15px;
-    text-align: center;
-    color: #432B77;
-
-}
-
-.producto img {
-    width: 180px;
-    border-radius: 15px 15px 0px 0px;
-
-}
-
-.titProd {
-    font-weight: 400;
-    margin: 10px 10px 1px 10px;
-
-}
-
-.subtitProd {
-    font-weight: 200;
-
-
-}
+/* ******* CARD DE PRODUCTO ************* */
 
 .precioProd {
     font-weight: 600;
     font-size: 20px;
-    margin: 10px;
+    color: #432B77;
 }
 
 button {
     background-color: #432B77;
     padding: 6px 15px 6px 15px;
     border-radius: 20px;
-    font-weight: 200;
+    font-weight: 400;
     text-decoration: none;
     color: white;
     border: 0;
@@ -153,7 +127,6 @@ button {
     background-color: #432B77;
     padding: 6px 15px 6px 15px;
     border-radius: 20px;
-    font-weight: 200;
     text-decoration: none;
     color: white;
     border: 0;
