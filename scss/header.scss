@@ -1,0 +1,35 @@
+.nav-item {
+    font-size: 1.2rem;
+    font-weight: 700;
+    color: $color_1;
+}
+
+.navbar-toggler {
+    &:focus {
+        box-shadow: none;
+    }
+}
+
+.nav-link {
+    &:hover {
+        color: $color_2;
+    }
+}
+
+.navbar-brand {
+    width: 155px;
+    align-self: start;
+    margin: 10px;
+    padding: 10px;
+}
+
+.carrito {
+    width: 14%;
+    text-align: left;
+
+    img {
+        width: 50px;
+        padding-top: 10px;
+    }
+
+}
