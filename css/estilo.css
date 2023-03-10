@@ -190,4 +190,15 @@ button {
   margin-top: 25px;
 }
 
+.parrafoConEstilo {
+  font-family: "Montserrat", sans-serif;
+  color: #695E7C;
+}
+
+.titulosEstilo {
+  font-family: "Montserrat", sans-serif;
+  color: #432B77;
+  font-size: 42px;
+}
+
 /*# sourceMappingURL=estilo.css.map */
