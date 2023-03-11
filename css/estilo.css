@@ -6,9 +6,6 @@ body {
 body li {
   list-style-type: none;
 }
-body li h4 {
-  font-size: 16px;
-}
 
 main {
   background-color: lightgray;
@@ -85,10 +82,13 @@ i:hover {
 .fin {
   background-color: #432B77;
   padding: 15px;
-  font-size: 14px;
   font-weight: 200;
   text-align: center;
   color: white;
+}
+
+h4 {
+  font-size: 16px;
 }
 
 section {
@@ -188,6 +188,10 @@ button {
 
 .detalleProd {
   margin-top: 25px;
+}
+
+.menuProductos {
+  font-size: 24px;
 }
 
 .parrafoConEstilo {
